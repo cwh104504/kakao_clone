@@ -1,0 +1,47 @@
+.nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #f9f9fa;
+    padding: 20px 50px;
+    box-sizing: border-box;
+    border-top: 1px solid rgba(0,0,0,0.1);
+}
+
+.nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__button {
+}
+
+.nav__link {
+    position: relative;
+    color: #2e363e;
+}
+
+.nav__chat_noti {
+    width: 30px;
+    height: 30px;
+    background-color: tomato;
+    color: white;
+    font-weight: 600;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 17px;
+    bottom: 15px;
+}
+
+.nav__update_noti {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: tomato;
+    position: absolute;
+    left: 32px;
+}
+
